@@ -5,22 +5,37 @@ body {
 #main {
     background-color: lightgray;
     display: block;
-    margin: 50px auto;
-    padding-top: 50px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    align-items: center;
 }
 
-#title {}
+#title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: auto;
+}
+
+#title h1 {
+    font-size: 48px;
+}
+
+#title p {
+    font-size: 16px;
+}
 
 #img-div {
     display: block;
-    width: 200px;
+    background-color: white;
 }
 
 #image {
-    width: 150px;
-    max-width: 100p%;
+    max-width: 100%;
     display: block;
     height: auto;
+    padding: 20px;
 }
 
 #img-caption {}
