@@ -7,14 +7,21 @@ body {
     display: block;
     margin: auto;
     padding: 20px 20px;
-    align-items: center;
+    justify-content: center;
+}
+
+#main p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #title {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-items: center;
+    justify-content: center;
 }
 
 #title h1 {
@@ -53,7 +60,7 @@ body {
 
 #tribute-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 700px;
@@ -78,7 +85,7 @@ body {
 
 #quote{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     width: 700px;
