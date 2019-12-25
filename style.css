@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-items: center;
+    justify-content: flex-start;
     width: 700px;
     margin: auto;
 }
@@ -80,15 +80,19 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-items: center;
+    justify-content: flex-start;
     width: 700px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-#quote p, span {
+#quote p {
     font-size: 18px;
     margin: auto;
 }
 
+#quote span {
+    font-size: 18px;
+    padding-top: 15px;
+}
