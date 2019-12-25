@@ -3,9 +3,9 @@ body {
 }
 
 #main {
-    background-color: lightgray;
+    background-color: lightgrey;
     display: block;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px 20px;
     align-items: center;
 }
@@ -15,19 +15,25 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-items: center;
-    margin: auto;
 }
 
 #title h1 {
     font-size: 48px;
+    margin: auto;
+    padding: 30px;
 }
 
 #title p {
     font-size: 16px;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 #img-div {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
     background-color: white;
 }
 
@@ -35,11 +41,43 @@ body {
     max-width: 100%;
     display: block;
     height: auto;
-    padding: 20px;
+    padding: 50px 80px 20px 80px;
+    margin: auto;
 }
 
-#img-caption {}
+#img-div p {
+    font-size: 16px;
+    margin: auto;
+    padding-bottom: 25px;
+}
 
-#tribute-info {}
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+}
 
-#quote {}
+#tribute-info h2 {
+    font-size: 16px;
+    padding: 50px;
+    margin: auto;
+}
+
+#tribute-info ul {
+    margin: auto;
+}
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    width: 400px;
+    margin: auto;
+}
+
+#quote p, span {
+    font-size: 16px;
+    margin: auto;
+}
