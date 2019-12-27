@@ -48,7 +48,7 @@ body {
     max-width: 100%;
     display: block;
     height: auto;
-    padding: 50px 80px 20px 80px;
+    padding: 20px 0px 20px 0px;
     margin: auto;
 }
 
@@ -63,7 +63,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 700px;
     margin: auto;
 }
 
@@ -81,14 +80,14 @@ body {
 #tribute-info ul li {
     padding-top: 8px;
     padding-bottom: 8px;
+    margin: auto;
 }
 
 #quote{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 700px;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
