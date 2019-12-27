@@ -40,7 +40,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-items: center;
+    justify-content: center;
     background-color: white;
 }
 
@@ -60,21 +60,22 @@ body {
 
 #tribute-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: auto;
+    justify-content: center;
 }
 
 #tribute-info h2 {
     font-size: 20px;
-    padding: 50px;
+    padding: 30px;
     margin: auto;
 }
 
 #tribute-info ul {
     font-size: 18px;
     margin: auto;
+    padding-top: 10px;
+    padding-left: 50px;
 }
 
 #tribute-info ul li {
