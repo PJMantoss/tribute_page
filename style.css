@@ -54,6 +54,7 @@ body {
 
 #img-div p {
     font-size: 16px;
+    font-family: monospace;
     margin: auto;
     padding-bottom: 25px;
 }
@@ -63,19 +64,22 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 #tribute-info h2 {
     font-size: 20px;
-    padding: 30px;
+    font-family: sans-serif;
+    padding: 20px;
     margin: auto;
 }
 
 #tribute-info ul {
     font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-self: center;
     margin: auto;
-    padding-top: 10px;
-    padding-left: 50px;
+    width: 60%;
 }
 
 #tribute-info ul li {
@@ -92,16 +96,18 @@ body {
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-size: 18px;
+    font-family: monospace;
 }
 
 #quote p {
-    font-size: 18px;
     margin: auto;
-    padding-left: 20px;
+    width: 60%;
 }
 
 #quote span {
     font-size: 18px;
     padding-top: 15px;
-    padding-left: 20px;
+    margin: auto;
+    width: 60%;
 }
